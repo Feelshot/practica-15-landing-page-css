@@ -15,6 +15,33 @@
     margin: 0;
     padding: 0;
 }
+h1, h2, h3 {font-family: 'Poppins', sans-serif;}
+p {font-family: 'Open Sans', sans-serif;}
+span {font-family: 'Poppins', sans-serif;}
 .img-size {
     width: 80%;
+}
+/* ---- HEADER ---- */
+
+/* ---- MAIN ---- */
+
+/* ==== Tarjeta 1 ====*/
+/* ==== Tarjeta 2 ====*/
+/* ==== Tarjeta 3 ====*/
+/* ==== Call to action ====*/
+
+/* ---- FOOTER ---- */
+
+/* =-=-=-=- Queries -=-=-=-= */
+@media (min-width: 900px) {
+/* ---- HEADER ---- */
+
+/* ---- MAIN ---- */
+
+/* ==== Tarjeta 1 ====*/
+/* ==== Tarjeta 2 ====*/
+/* ==== Tarjeta 3 ====*/
+/* ==== Call to action ====*/
+
+/* ---- FOOTER ---- */ 
 }
