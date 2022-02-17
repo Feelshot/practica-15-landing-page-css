@@ -16,7 +16,7 @@
     padding: 0;
 }
 h1, h2, h3 {font-family: 'Poppins', sans-serif;}
-p {font-family: 'Open Sans', sans-serif;}
+p, h4 {font-family: 'Open Sans', sans-serif;}
 span {font-family: 'Open Sans', sans-serif;}
 .img-size {
     width: 80%;
@@ -105,16 +105,26 @@ span {
 /* ==== Tarjeta 1 ====*/
 .tarjet-top {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /* ==== Tarjeta 2 ====*/
 .tarjet-mid {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /* ==== Tarjeta 3 ====*/
 .tarjet-bottom {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /* ==== Call to action ====*/
 .bottom-cta {
@@ -122,9 +132,21 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 /* ---- FOOTER ---- */
-
+footer {
+    background-color: var(--Dark-Cyan);
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer p, h4 {
+    color: white;
+}
+.logo-bottom {
+    width: 200px;
+    height: 100%;
+}
 /* =-=-=-=- Queries -=-=-=-= */
 @media (min-width: 900px) {
 /* ---- HEADER ---- */
