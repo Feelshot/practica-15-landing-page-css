@@ -22,14 +22,72 @@ span {font-family: 'Poppins', sans-serif;}
     width: 80%;
 }
 /* ---- HEADER ---- */
-
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 110px;
+    height: 100%;
+    margin: 30px 0 0 20px;   
+}
+header button {
+    border-radius: 20px;
+    width: 100px;
+    height: 26px;
+    margin: 30px 20px 0 0;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid var(--Light-pink);
+    color: var(--Light-pink);
+    font-size: 12px;
+}
 /* ---- MAIN ---- */
-
+.top-text {
+    display: flex;
+    flex-direction: column;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.numbers div img {
+    width: 30px;
+    height: 100%;
+}
+span {
+    font-size: 50px;
+}
+.people {
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+}
 /* ==== Tarjeta 1 ====*/
+.tarjet-top {
+    display: flex;
+    flex-direction: row-reverse;
+}
 /* ==== Tarjeta 2 ====*/
+.tarjet-mid {
+    display: flex;
+}
 /* ==== Tarjeta 3 ====*/
+.tarjet-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+}
 /* ==== Call to action ====*/
-
+.bottom-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* ---- FOOTER ---- */
 
 /* =-=-=-=- Queries -=-=-=-= */
