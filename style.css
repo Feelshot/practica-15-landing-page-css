@@ -143,8 +143,12 @@ footer {
     background-color: var(--Dark-Cyan);
     display: flex;
     flex-direction: column-reverse;
-    border: none;
 }
+.border-bottom {
+    width: 100%;
+    height: auto;
+}
+.liner-mobile {}
 footer p, h4 {
     color: white;
 }
