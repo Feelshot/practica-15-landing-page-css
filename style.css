@@ -113,6 +113,13 @@ span {
     text-align: center;
     background-color: var(--Pale-Blue);
 }
+.tarjet-top h3 {
+    margin-top: 80px;
+}
+ .tarjet-top p {
+     width: 92%;
+    margin: 15px auto 50px auto;
+}
 /* ==== Tarjeta 2 ====*/
 .tarjet-mid {
     display: flex;
@@ -120,6 +127,16 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 180px;
+}
+.tarjet-mid h3 {
+    margin-top: 80px;
+}
+.tarjet-mid p {
+    width: 92%;
+    margin: 15px auto 180px auto;
+    font-size: 15px;
+
 }
 /* ==== Tarjeta 3 ====*/
 .tarjet-bottom {
@@ -129,6 +146,15 @@ span {
     align-items: center;
     text-align: center;
     background-color: var(--Pale-Blue);
+    padding-top: 20px;
+}
+.tarjet-bottom h3 {
+    margin-top: 80px;
+}
+.tarjet-bottom p {
+    width: 92%;
+    margin: 15px auto 140px auto;
+    font-size: 15px;
 }
 /* ==== Call to action ====*/
 .bottom-cta {
@@ -138,11 +164,26 @@ span {
     align-items: center;
     text-align: center;
 }
+.bottom-cta h2 {
+    margin-top: 80px;
+}
+.bottom-cta button {
+    margin: 30px auto 200px auto;
+    width: 220px;
+    height: 40px;
+    background-color: var(--Pink);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px 3px rgba(117, 117, 117, 0.377);
+
+}
 /* ---- FOOTER ---- */
 footer {
     background-color: var(--Dark-Cyan);
     display: flex;
     flex-direction: column-reverse;
+    padding: 50px 0 50px 0;
 }
 .border-bottom {
     width: 100%;
@@ -155,6 +196,60 @@ footer p, h4 {
 .logo-bottom {
     width: 200px;
     height: 100%;
+}
+.block-mail, .block-contact {
+    margin-left: 20px;
+}
+.block-mail p, .block-mail h4 {
+    margin-bottom: 20px;
+}
+.block-mail h4 {
+    font-size: 22px;
+}
+.form-box {
+    width: 94%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+}
+.form-buttom {
+    display: flex;
+    width: 94%;
+    justify-content: right;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+.button-bottom {
+    border: none;
+    background-color: var(--Pink);
+    color: white;
+    width: 50%;
+    height: 40px;
+    border: 5px;
+}
+.logo-bottom {
+    width: 220px;
+}
+.block-contact p {
+    margin-left: 15px;
+}
+.block-contact > p {
+    margin: 10px 0 40px 0;
+    
+}
+.Phone, .mail {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px 0;
+}
+.Phone img, .mail img {
+    width: 20px;
+    height: 16px;
+}
+i {
+    margin: 0 10px 0 0;
+    color: white;
 }
 /* =-=-=-=- Queries -=-=-=-= */
 @media (min-width: 900px) {
