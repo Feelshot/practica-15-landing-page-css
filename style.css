@@ -18,6 +18,8 @@
 h1, h2, h3 {font-family: 'Poppins', sans-serif;}
 p, h4 {font-family: 'Open Sans', sans-serif;}
 span {font-family: 'Open Sans', sans-serif;}
+.border-mobile {display: flex; width: 100%;}
+.border-desktop {display: none;}
 .img-size {
     width: 80%;
 }
@@ -109,6 +111,7 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: var(--Pale-Blue);
 }
 /* ==== Tarjeta 2 ====*/
 .tarjet-mid {
@@ -125,6 +128,7 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: var(--Pale-Blue);
 }
 /* ==== Call to action ====*/
 .bottom-cta {
@@ -139,6 +143,7 @@ footer {
     background-color: var(--Dark-Cyan);
     display: flex;
     flex-direction: column-reverse;
+    border: none;
 }
 footer p, h4 {
     color: white;
@@ -149,6 +154,8 @@ footer p, h4 {
 }
 /* =-=-=-=- Queries -=-=-=-= */
 @media (min-width: 900px) {
+    .border-mobile {display: none;}
+    .border-desktop {display: block; width: 100%;}
 /* ---- HEADER ---- */
 
 /* ---- MAIN ---- */
